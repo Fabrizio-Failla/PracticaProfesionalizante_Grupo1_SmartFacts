@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Smart_Facts_Web
 {
-    public partial class Catalogo : Form
+    public partial class Celulares_Nuevos : Form
     {
-        public Catalogo()
+        public Celulares_Nuevos()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            Celulares_Nuevos nuevos= new Celulares_Nuevos();
+        { 
+            PedidoN nuevos = new PedidoN();
             nuevos.Show();
             this.Hide();
 

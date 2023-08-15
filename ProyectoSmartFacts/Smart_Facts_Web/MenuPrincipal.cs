@@ -38,5 +38,15 @@ namespace Smart_Facts_Web
             registracion.Show();
             this.Hide();
         }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
