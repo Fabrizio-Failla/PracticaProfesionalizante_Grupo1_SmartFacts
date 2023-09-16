@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Clases_Smart_Facts;
 
 namespace Smart_Facts_Web
 {
@@ -17,17 +18,11 @@ namespace Smart_Facts_Web
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Celulares_Nuevos nuevos= new Celulares_Nuevos();
-            nuevos.Show();
-            this.Hide();
-
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
+            this.Close();
         }
     }
 }
